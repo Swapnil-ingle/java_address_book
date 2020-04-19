@@ -35,11 +35,15 @@ The shell script and batch script for running the program are generated in the d
 ## Operations
 ### Load from file
 The records are saved in an external file. Give the full path of the file to load records from the file. 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/load_from_file.gif?raw=true "Load From File Operation")
+
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/load_from_file.gif?raw=true "Load From File Operation")
+>> **GIF: Load records from a file**
 
 ### Save to file
 This is operation is equivalent to the conventional "save" icon operation.
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/save_to_file.gif?raw=true "Save to File Operation")
+
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/save_to_file.gif?raw=true "Save to File Operation")
+>> **GIF: Save to file**
 
 ### Add entry/entries
 
@@ -48,28 +52,33 @@ Adding single entry to AddressBook.
 
 This is a guided step-by-step form-filling operation. 
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/add_single_entry.gif?raw=true "Adding Single Entry Operation")
-**Note:** Email is mandatory and unique per record entry.  
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/add_single_entry.gif?raw=true "Adding Single Entry Operation")
+>> **GIF: Add single entry**
+>>> **Note:** Email is mandatory and unique per record entry.  
 
 #### Adding multiple entries
 
 Adding multiple records in a single go. This is much more convenient for doing a bulk-insert to the address-book.
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/add_multiple_entries.gif?raw=true "Adding Multiple Entries Operation")
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/add_multiple_entries.gif?raw=true "Adding Multiple Entries Operation")
+>> **GIF: Add multiple entries**
 
 ### Remove an entry
 This operation removes an entry from the address-book.
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/remove_entry.gif?raw=true "Removing Entry Operation")
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/remove_entry.gif?raw=true "Removing Entry Operation")
+>> **GIF: Remove an entry**
 
 **If the mail does not exists:** 
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/remove_entry_mail_not_exists.gif "Removing Entry Operation Failed")
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/remove_entry_mail_not_exists.gif "Removing Entry Operation Failed")
+>> **GIF: Example: If mail does not exists**
 
 ### Edit an existing entry
 This edits an existing entry in the address book. It uses email field as a key to match, edit and update the underlying record.
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/edit_entry.gif?raw=true "Edit Entry Operation")
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/edit_entry.gif?raw=true "Edit Entry Operation")
+>> **GIF: Edit an entry**
 
 ### Browse Records (Records Browser Mode)
 This is record browser mode. It shows the records in paginated form, each page holds 10 records.
@@ -77,7 +86,8 @@ Using this, the user can navigate through the records, each page at a time.
 
 The browser mode is engaged whenever the user browses, searches, sorts through the records or attempt to move a record to other file.
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/record_browsing.gif?raw=true "Record Browser Mode")
+> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/record_browsing.gif?raw=true "Record Browser Mode")
+>> **GIF: Browser mode**
 
 **Note:**
 * Enter 'n' --> To visit the next page.
@@ -87,20 +97,20 @@ The browser mode is engaged whenever the user browses, searches, sorts through t
 ### Sort the address book
 This operation sorts and display the records based on the input sorting key.
 
-#### Example: Sorting by first_name
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_sorting_fname.gif?raw=true "Record Sorting: FirstName")
+> **Example: Sorting by first_name**
+>> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_sorting_fname.gif?raw=true "Record Sorting: FirstName")
 
-#### Example: Sorting by last_name
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_sorting_lname.gif?raw=true "Record Sorting: LastName")
+> **Example: Sorting by last_name**
+>> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_sorting_lname.gif?raw=true "Record Sorting: LastName")
 
 ### Search for a specific entry
 This operation searches for a specific entry and displays the results (in browsing mode) based on the given **search key** and the **matching criteria**
 
-#### Example: Search with criteria FULL_MATCH
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_search_full.gif?raw=true "Record Searching: FULL")
+> **Example: Search with criteria FULL_MATCH**
+>> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_search_full.gif?raw=true "Record Searching: FULL")
 
-#### Example: Search with criteria CONTAINS
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_search_contains.gif?raw=true "Record Searching: CONTAINS")
+> **Example: Search with criteria CONTAINS**
+>> ![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/entry_search_contains.gif?raw=true "Record Searching: CONTAINS")
 
 ### Move an entry to other address book
 The user can move an entry from one address-book file to other.
@@ -111,7 +121,8 @@ The user can move an entry from one address-book file to other.
 
 **Note:** User's search query must result in a single record.
 
-![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/record_movement.gif?raw=true "Record Movement cross file")
+>![alt text](https://github.com/Swapnil-ingle/java_address_book/blob/master/docs/gifs/record_movement.gif?raw=true "Record Movement cross file")
+>> **GIF: Record movement across file**
 
 #### Misc
 * The program can handle multiple files and can switch between files during the normal operational workflow.
